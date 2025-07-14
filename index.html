@@ -517,6 +517,175 @@
         </div>
     </section>
     <!-- Counter Section End -->
+<!-- ===================== Gallery Section ===================== -->
+
+<!-- ===================== Gallery Section ===================== -->
+<section class="about spad" id="gallery">
+  <div class="container">
+    <div class="section-title text-center mb-5">
+      <span>Our Gallery</span>
+      <h2>Latest Visual Moments</h2>
+      <p>A glimpse into our recent shoots, creative frames, and production work.</p>
+    </div>
+    <div class="row g-4">
+      <!-- Repeatable Gallery Items -->
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery__item">
+          <a href="img/portfolio/hyndaicompany.jpg" data-lightbox="gallery">
+            <div class="gallery__img-wrap">
+              <img src="img/portfolio/hyndaicompany.jpg" class="img-fluid w-100 h-100" alt="Gallery Image">
+              <div class="gallery__overlay">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Add more gallery items -->
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery__item">
+          <a href="img/portfolio/hyndaireception.jpg" data-lightbox="gallery">
+            <div class="gallery__img-wrap">
+              <img src="img/portfolio/hyndaireception.jpg" class="img-fluid w-100 h-100" alt="Gallery Image">
+              <div class="gallery__overlay">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery__item">
+          <a href="img/portfolio/hyndailounge.jpg" data-lightbox="gallery">
+            <div class="gallery__img-wrap">
+              <img src="img/portfolio/hyndailounge.jpg" class="img-fluid w-100 h-100" alt="Gallery Image">
+              <div class="gallery__overlay">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery__item">
+          <a href="img/portfolio/hyndaigate.jpg" data-lightbox="gallery">
+            <div class="gallery__img-wrap">
+              <img src="img/portfolio/hyndaigate.jpg" class="img-fluid w-100 h-100" alt="Gallery Image">
+              <div class="gallery__overlay">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery__item">
+          <a href="img/portfolio/hyndaientrance.jpg" data-lightbox="gallery">
+            <div class="gallery__img-wrap">
+              <img src="img/portfolio/hyndaientrance.jpg" class="img-fluid w-100 h-100" alt="Gallery Image">
+              <div class="gallery__overlay">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery__item">
+          <a href="img/portfolio/hyndaianotherentrance.jpg" data-lightbox="gallery">
+            <div class="gallery__img-wrap">
+              <img src="img/portfolio/hyndaianotherentrance.jpg" class="img-fluid w-100 h-100" alt="Gallery Image">
+              <div class="gallery__overlay">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery__item">
+          <a href="img/portfolio/hyndainightview.jpg" data-lightbox="gallery">
+            <div class="gallery__img-wrap">
+              <img src="img/portfolio/hyndainightview.jpg" class="img-fluid w-100 h-100" alt="Gallery Image">
+              <div class="gallery__overlay">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery__item">
+          <a href="img/portfolio/hyndaiworkspace.jpg" data-lightbox="gallery">
+            <div class="gallery__img-wrap">
+              <img src="img/portfolio/hyndaiworkspace.jpg" class="img-fluid w-100 h-100" alt="Gallery Image">
+              <div class="gallery__overlay">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="gallery__item">
+          <a href="img/portfolio/hyndaiworkspace2.jpg" data-lightbox="gallery">
+            <div class="gallery__img-wrap">
+              <img src="img/portfolio/hyndaiworkspace2.jpg" class="img-fluid w-100 h-100" alt="Gallery Image">
+              <div class="gallery__overlay">
+                <i class="fas fa-search-plus"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.gallery__img-wrap {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: transparent;
+}
+.gallery__img-wrap img {
+  transition: transform 0.4s ease;
+  object-fit: cover;
+}
+.gallery__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-size: 1.8rem;
+}
+.gallery__img-wrap:hover img {
+  transform: scale(1.05);
+}
+.gallery__img-wrap:hover .gallery__overlay {
+  opacity: 1;
+}
+</style>
+
 
     <!-- Team Section Begin -->
     <section class="team spad set-bg" data-setbg="img/team-bg.jpg">
